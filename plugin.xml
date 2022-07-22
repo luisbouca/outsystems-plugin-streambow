@@ -124,6 +124,7 @@
 		<hook type="before_plugin_install" src="hooks/edit_settings_gradle.js"/>
 		<hook type="before_plugin_install" src="hooks/edit_gradle_properties.js"/>
 		<hook type="after_plugin_install" src="hooks/move_sdk.js"/>
+		<hook type="before_prepare" src="hooks/compatibilityFirebasePlugins.js" />
 		<!--<hook type="before_plugin_install" src="hooks/copy_gradle_extras.js"/> -->
 
 		<dependency id="cordova-custom-config" version="^5.1.1" />
